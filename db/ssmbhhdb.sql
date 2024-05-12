@@ -22,6 +22,7 @@
 -- 删除原有数据库ssmbhhdb，创建数据库ssmbhhdb
 DROP DATABASE IF EXISTS ssmbhhdb;
 CREATE DATABASE ssmbhhdb;
+use ssmbhhdb;
 
 DROP TABLE IF EXISTS `biaobaiguangchang`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
